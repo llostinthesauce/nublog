@@ -22,7 +22,7 @@
             <?php include 'visitor_counter.php'; ?>
         </div>
 
-        <h1>you have reached the home of badc0vers' seemingly unnessecary nuBlog</h1>
+        <h1>you have reached the home of badc0vers' seemingly <i>unnessecary</i> nuBlog</h1>
         
         <!-- Scrolling banner -->
         <marquee behavior="scroll" direction="left" scrollamount="15">
