@@ -1,18 +1,23 @@
 /* General styling for all pages */
+html {
+    height: 100%;  /* Ensure html element covers full height of the page */
+    background-image: url('../images/water.gif'); /* Your GIF image */
+    background-size: cover;  /* Ensure the image covers the whole page */
+    background-position: center center;  /* Center the image */
+    background-attachment: fixed;  /* Keep the background fixed when scrolling */
+}
+
 body {
     font-family: 'Lucida Grande', Arial, sans-serif; /* Updated font family to Lucida Grande */
-    background-image: url('images/water.gif'); /* Path to your GIF */
-    background-size: cover; /* Ensures the GIF covers the entire page */
-    background-position: center center; /* Centers the image */
-    background-attachment: fixed; /* Keeps the background fixed when scrolling */
     color: #f0f0f0;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Ensures the body takes up full height */
+    height: 100%; /* Ensure body covers full height */
     display: flex;
     justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    text-align: center;
+    align-items: flex-start; /* Align content to the top */
+    text-align: left; /* Aligns all text in the body to the left */
+    flex-direction: column; /* Ensure the content flows vertically */
 }
 
 /* Content box */
@@ -20,54 +25,117 @@ body {
     background-color: rgba(0, 0, 0, 0.6); /* Keep this background color on top of the GIF */
     border-radius: 10px;
     padding: 40px;
-    width: 80%;
-    max-width: 600px;
+    width: 90%; /* Wider content */
+    max-width: 800px; /* Adjust max-width for wider layout */
     z-index: 1; /* Ensure the content is on top of the background */
+    text-align: left; /* Left-align the content */
+    margin-top: 20px; /* Add margin to the top of content */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+    overflow: auto; /* Allow content to scroll if it exceeds the height */
+    margin: 20px auto; /* Center content horizontally */
 }
 
-/* Blog Post Style */
-.post {
+/* Blog Post Page Specific Styles */
+.blog-post-page .content {
+    width: 90%;
+    max-width: 900px; /* Custom width for blog posts */
+    text-align: left; /* Left-align the content for blog posts */
+    margin-top: 30px;
+}
+
+.blog-post-page .post {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
+    text-align: left; /* Left-align the blog post content */
 }
 
-.post h2 {
+.blog-post-page .post h2 {
     color: #66ccff;
+    text-align: left; /* Left-align the post titles */
 }
 
-.post .post-date {
+.blog-post-page .post .post-date {
     font-size: 0.9em;
     color: #a8d8ff;
+    text-align: left; /* Left-align the post date */
 }
 
-.post p {
+.blog-post-page .post p {
     color: #a8d8ff;
     font-size: 1.1em;
+    text-align: left; /* Left-align the post content */
 }
 
+body.blog-post-page .content {
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 20px; /* Adds padding for better spacing */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+body.blog-post-page {
+    word-wrap: break-word; /* Prevents overflow of long words */
+}
+
+/* Footer Styling */
 footer {
     margin-top: 20px;
     font-size: 0.9em;
     color: #a8d8ff;
+    text-align: left; /* Left-align the footer */
 }
 
+/* Link Styling */
 .link {
     margin-top: 20px;
     font-size: 1.1em;
     color: #66ccff;
     text-decoration: none;
+    text-align: left; /* Left-align the links */
 }
 
 .link:hover {
     text-decoration: underline;
 }
 
-img {
-    max-width: 100%;  /* Ensures the image scales responsively */
-    height: auto; /* Keeps aspect ratio */
+/* Image Styling */
+.styled-image {
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin: 20px auto; /* Centers image */
-    border-radius: 10px; /* Optional: makes the image slightly rounded */
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left; /* Left-align images */
+}
+
+.styled-image2 {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left; /* Left-align images */
+}
+
+/* General Subheading Styling */
+h2, h3, h4, h5, h6, h7 {
+    font-size: 20px;
+    text-align: left; /* Left-align the subheadings */
+}
+
+/* Make the page scrollable */
+html, body {
+    height: 100%; /* Ensures full height */
+    overflow-x: hidden; /* Prevents horizontal overflow */
+}
+
+.content {
+    flex-grow: 1; /* Ensures content takes up available space */
+    padding-bottom: 50px; /* Add bottom padding if necessary for better spacing */
+}
+
+h1.underlined-heading {
+    text-decoration: underline;
 }
