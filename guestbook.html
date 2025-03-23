@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook - NuBlog</title>
+    <link rel="stylesheet" href="styles/style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the Guestbook</h1>
+        <p>Leave a message below to say hello!</p>
+
+        <!-- Form that posts to the PHP script -->
+        <form action="process_guestbook.php" method="POST">
+            <div>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Sign the Guestbook</button>
+            </div>
+        </form>
+
+        <h2>Recent Messages</h2>
+        <div>
+            <?php
+                // Display the guestbook entries here
+                $file = 'guestbook.txt'; // The text file to store the messages
+                if(file_exists($file)) {
+                    $entries = file($file, FILE_IGNORE_NEW_LINES);
+                    foreach($entries as $entry) {
+                        echo '<p>' . nl2br(htmlspecialchars($entry)) . '</p>';
+                    }
+                } else {
+                    echo '<p>No messages yet!</p>';
+                }
+            ?>
+        </div>
+
+        <footer>&copy; 2025 nuBlog | badc0vers</footer>
+    </div>
+</body>
+</html>
