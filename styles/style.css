@@ -26,7 +26,7 @@ body {
     border-radius: 10px;
     padding: 40px;
     width: 90%; /* Wider content */
-    max-width: 800px; /* Adjust max-width for wider layout */
+    max-width: 1000px; /* Adjust max-width for wider layout */
     z-index: 1; /* Ensure the content is on top of the background */
     text-align: left; /* Left-align the content */
     margin-top: 20px; /* Add margin to the top of content */
@@ -38,9 +38,10 @@ body {
 /* Blog Post Page Specific Styles */
 .blog-post-page .content {
     width: 90%;
-    max-width: 900px; /* Custom width for blog posts */
+    max-width: 1000px; /* Custom width for blog posts */
     text-align: left; /* Left-align the content for blog posts */
     margin-top: 30px;
+    line-height: 1.4; /* Try increasing this value to make it more noticeable */
 }
 
 .blog-post-page .post {
@@ -111,7 +112,7 @@ footer {
 }
 
 .styled-image2 {
-    max-width: 35%;
+    max-width: 25%;
     height: auto;
     display: block;
     margin: 20px auto;
