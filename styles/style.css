@@ -1,23 +1,28 @@
 /* General styling for all pages */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #001f33;
+    font-family: 'Lucida Grande', Arial, sans-serif; /* Updated font family to Lucida Grande */
+    background-image: url('images/water.gif'); /* Path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
     color: #f0f0f0;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100vh; /* Ensures the body takes up full height */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     text-align: center;
 }
 
+/* Content box */
 .content {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6); /* Keep this background color on top of the GIF */
     border-radius: 10px;
     padding: 40px;
     width: 80%;
     max-width: 600px;
+    z-index: 1; /* Ensure the content is on top of the background */
 }
 
 /* Blog Post Style */
@@ -57,4 +62,12 @@ footer {
 
 .link:hover {
     text-decoration: underline;
+}
+
+img {
+    max-width: 100%;  /* Ensures the image scales responsively */
+    height: auto; /* Keeps aspect ratio */
+    display: block;
+    margin: 20px auto; /* Centers image */
+    border-radius: 10px; /* Optional: makes the image slightly rounded */
 }
