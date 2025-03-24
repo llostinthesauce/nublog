@@ -5,23 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>guestbook - nuBlog</title>
     <link rel="stylesheet" href="styles/style.css"> <!-- Link to external CSS -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- Add favicon here -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
 </head>
 <body>
+
     <div class="content">
-
-        <!-- Navigation links -->
-        <div>
-            <a href="index.php" class="link">home</a> | 
-            <a href="blog.html" class="link">blog</a> | 
-            <a href="about.html" class="link">about me</a> | 
-            <a href="guestbook.php" class="link">guestbook</a>
-        </div>
-
-        <!-- Visitor Counter -->
-        <div>
-            <?php include 'visitor_counter.php'; ?>
-        </div>
+        <?php include 'header.php'; ?> <!-- Include header.php -->
 
         <h1>welcome to the guestbook</h1>
 
@@ -64,12 +53,8 @@
             ?>
         </div>
 
-        <footer>
-            <audio autoplay loop>
-                <source src="audio/shb.mp3" type="audio/mp3">
-            </audio>        
-            &copy; 2025 nuBlog | contact <a href="mailto:cobyshanks@gmail.com">badc0vers</a>
-        </footer>
+        <?php include 'footer.php'; ?> <!-- Include footer.php -->
     </div>
+
 </body>
 </html>

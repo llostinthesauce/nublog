@@ -9,15 +9,14 @@
 </head>
 <body class="blog-post-page">
     <div class="content">
-
-        <!--
+        <?php include '../header.php'; ?>
         <h1 class="underlined-heading">mct</h1>
-
         <div>
-            <p>published date</p>
+            <p>published 31 december 2024</p>
         </div>
+        <img src="/images/mct.jpg" alt="bryce" class="styled-image">
 
-        <h2>preface:</h2>
+        <h2>preface-preface::</h2>
         <p>i am in no way entitled to intelligently write on these matters. this is simply a collection of some of my observations. i am not the best writer, and i did not check for grammar.</p>
         <h3>religion as a preface</h3>
         <p>ive been thinking a bit about religion. My belief is that “God”, rooted in Abrahamic religions of the world, is mostly a construct of humanity to answer the questions/wonders/control people. This is nothing new, but I have thought this since age 14 or so. However, all religions share the same common ends, that being, the belief in a god and/or multiple gods that transcend this place and time. Omnipresent. Are we innately programmed to be god fearing and seeking? Humanity evolved in a time where our brains grew more complex than we could begin to understand, and naturally we looked for patterns and sought an explanation. Alas, religion is born. I get caught up on the fact that many intelligent people die on the hill of religion. Pascals wager? Immense hardship that points people to acceptance? Fear of death? As much as I have tried, I just cant see through this facade. However, “God” to me just means the energy/force of the universe and outer space. This may seem ambivalent, but it is natural and observable. There is a intrinsic balance in this world, and purely everything can be boiled down to energy transfer. No person with will created this, we are merely a byproduct of it, and some say that humans only exist to speed up the heat death of the universe. Life may not have even began on Earth after all, we skipped a couple billion years in evolutionary complexity for seemingly no reason at all. I wonder how long into humanities future it will take for people to see this as fact, probably forever. Modern religion exists as an oppressor, and more people break free as time marches on. The information age and the onset of the Internet and global trade has sped up and perpetuated this freedom. On the other hand, humans have only lived this complex of lives for 1% of our existance. Trouble grappling with the modern world? God explains that. Some countries and cultures know this, see China and some Nordic countries. They realized that a population base that is rooted in religious values is only hindering personal well-being and focus. America on the other hand, has a long way to go, and it may cease to exist in a familiar way before most* people share this belief. I am not calling for people to change, but it is merely an observation. Dividedness does us no good. But alas…</p>
@@ -29,13 +28,7 @@
         <p>All of this to say, that the modern world, and specifically America in 2024 is at a critical point. We are more divided than ever, with morals, power dynamics, beliefs, money/wealth gap, class, opportunity, and so much more. This place is not the same as it was when my parents grew up, or even their parents, and perhaps all of America was built on these shaky foundations, we are just in the critical exponiental stages of it. Hyperinflation looms, politics seem doomed, and people are unhappy. Most empires eventually fall, but that was pre-everything modern, so who knows what America will do to save itself. There are many red flags, people protesting, people taking action on their own volition, outright denial, and general unease is growing more common. Everyone in some way is being taken advantage of, maybe that is just society. Corruption is rampant, and human nature doesn’t really allow for everyone to be corgile. Those in power are quite good at hiding it, but there are cracks. Greed and a thirst for power is a tale as old as time. We can make it out of these scary times, but I am afraid that people are more distracted than ever to actually listen to each other and to try for a change. Staying stubborn and closeted only leads to resentment and hate and violence. Most people are happy enough with their creature comforts and would rather keep scrolling and eating ummy yummy sugar than think about why/how we got here and how we can fix it. Junk food and cheap/slop entertainment is more accessible than ever, and it takes self control to not fall into this dopamine trap. AI accelerates this. Humans thrive on community, creativity, and novelty. Those who do “pay attention” can easily get pipelined into following the politicians or some weird extremist groups because they think they care about them and find community there. These people are clapping for the wrong reasons. Keeping people busy/entertained or give them spaces to ask the wrong questions is a great way to stay in power and keep moving pieces around behind the scenes. Rich people and political figures do NOT care about us. I wish I could say that I had faith in the common people, but with the way things look currently, I sadly do not have much. We can do better for ourselves. But, this point in history is likely a necessary step in the evolution of what will become of us. With AGI on the horizon, it will be an interesting ride. Who knows if I will find a job. Hug your friends, write down your thoughts, exist in nature.</p>
         <p>oh, and buy bitcoin</p>
 
-        <br></br>
-        -->
-
-
-        <div>
-            <a href="/blog.html" class="link">back to blog home</a>
-        </div>
-        <footer>&copy; 2025 nuBlog | contact <a href="mailto:cobyshanks@gmail.com">badc0vers</a></footer>    </div>
+        <?php include '../footer.php'; ?>
+    </div>
 </body>
 </html>
