@@ -26,6 +26,7 @@
         <!-- List of All Blog Posts -->
         <h3>all posts of any type, chronologically:</h3>
         <ul>
+            <li><a href="blog/post5.php" class="link">24 march 2025: nature being paradoxical</a></li>
             <li><a href="blog/post1.php" class="link">31 december 2024: m.c.t.</a></li>
             <li><a href="blog/post2.php" class="link">29 may 2024: the illision of better times</a></li>
             <li><a href="blog/post3.php" class="link">24 august 2023: the fear of looking beyond</a></li>
