@@ -12,14 +12,14 @@
     <div class="content">
         <?php include 'header.php'; ?>
         <br>
-        <div>
+        <div class="visitor-count">
             <?php include 'visitor_counter.php'; ?>
         </div>
 
         <h1>you have reached the home of badc0vers' seemingly <i>unnecessary</i> nuBlog</h1>
 
         <!-- Scrolling banner -->
-        <marquee behavior="scroll" direction="left" scrollamount="15">
+        <marquee behavior="scroll" direction="left" scrollamount="10">
             <i>my domain is my domain, i am the oldest i have ever been and the youngest i will ever be, and the world i was born into no longer exists!</i>
         </marquee>
 

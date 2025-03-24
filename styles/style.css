@@ -1,142 +1,135 @@
 /* General styling for all pages */
 html {
-    height: 100%;  /* Ensure html element covers full height of the page */
-    background-image: url('../images/water.gif'); /* Your GIF image */
-    background-size: cover;  /* Ensure the image covers the whole page */
-    background-position: center center;  /* Center the image */
-    background-attachment: fixed;  /* Keep the background fixed when scrolling */
+    height: 100%;
+    background-color: #000080; /* Classic navy blue background instead of GIF */
+    /* Or keep your GIF but make it tile like old websites */
+    background-image: url('../images/water.gif');
+    /* background-repeat: repeat; /* Make it tile instead of cover */
 }
 
 body {
-    font-family: 'Lucida Grande', Arial, sans-serif; /* Updated font family to Lucida Grande */
-    color: #f0f0f0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif; /* Changed to Lucida Grande with fallbacks */
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensure body covers full height */
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: flex-start; /* Align content to the top */
-    text-align: left; /* Aligns all text in the body to the left */
-    flex-direction: column; /* Ensure the content flows vertically */
+    text-align: center; /* Center alignment was common */
 }
 
 /* Content box */
 .content {
-    background-color: rgba(0, 0, 0, 0.6); /* Keep this background color on top of the GIF */
-    border-radius: 10px;
-    padding: 40px;
-    width: 90%; /* Wider content */
-    max-width: 1000px; /* Adjust max-width for wider layout */
-    z-index: 1; /* Ensure the content is on top of the background */
-    text-align: left; /* Left-align the content */
-    margin-top: 20px; /* Add margin to the top of content */
-    box-sizing: border-box; /* Ensures padding is included in the total width */
-    overflow: auto; /* Allow content to scroll if it exceeds the height */
-    margin: 20px auto; /* Center content horizontally */
+    background-color: #000000; /* Solid background, no transparency */
+    border: 2px solid #5CCCCC; /* Teal border instead of yellow */
+    border-radius: 0px; /* No rounded corners */
+    width: 800px; /* Fixed width - old sites weren't responsive */
+    margin: 20px auto;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Header styling - all headings same size and left aligned */
+h1 {
+    color: #9966CC; /* Amethyst purple for headings instead of magenta */
+    text-align: left;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #9966CC; /* Amethyst purple for headings */
+    text-align: left;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; /* All subheadings same size */
+}
+
+/* Link Styling */
+a {
+    color: #33CCAA; /* Sea green for links instead of cyan */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #66FFCC; /* Lighter sea green on hover instead of yellow */
+}
+
+/* Image Styling - smaller images like old websites */
+.styled-image {
+    max-width: 600px; /* Limit maximum width */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #5CCCCC; /* Teal border around images */
+}
+
+.styled-image2 {
+    max-width: 200px; /* Even smaller for secondary images */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* All images, even those without classes */
+img {
+    max-width: 320px; /* Default max width for all images */
+    height: auto;
+}
+
+/* Table styling - tables were common for layout */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
 }
 
 /* Blog Post Page Specific Styles */
 .blog-post-page .content {
-    width: 90%;
-    max-width: 1000px; /* Custom width for blog posts */
-    text-align: left; /* Left-align the content for blog posts */
+    width: 800px; /* Fixed width */
+    text-align: left;
     margin-top: 30px;
-    line-height: 1.4; /* Try increasing this value to make it more noticeable */
+    line-height: 1.2; /* Slightly tighter line spacing */
 }
 
 .blog-post-page .post {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    background-color: #000000; /* Solid background */
+    border: 1px solid #444466; /* Dark blue-gray border */
     margin-top: 20px;
-    padding: 20px;
-    text-align: left; /* Left-align the blog post content */
+    padding: 10px;
 }
 
 .blog-post-page .post h2 {
-    color: #66ccff;
-    text-align: left; /* Left-align the post titles */
-}
-
-.blog-post-page .post .post-date {
-    font-size: 0.9em;
-    color: #a8d8ff;
-    text-align: left; /* Left-align the post date */
-}
-
-.blog-post-page .post p {
-    color: #a8d8ff;
-    font-size: 1.1em;
-    text-align: left; /* Left-align the post content */
-}
-
-body.blog-post-page .content {
-    max-width: 1000px; /* Adjust this value as needed */
-    margin: 0 auto; /* Centers the content horizontally */
-    padding: 20px; /* Adds padding for better spacing */
-    box-sizing: border-box; /* Ensures padding is included in the total width */
-}
-
-body.blog-post-page {
-    word-wrap: break-word; /* Prevents overflow of long words */
+    color: #6699CC; /* Steel blue color for blog post headings */
+    text-align: left;
 }
 
 /* Footer Styling */
 footer {
     margin-top: 20px;
-    font-size: 0.9em;
-    color: #a8d8ff;
-    text-align: left; /* Left-align the footer */
+    font-size: 0.8em; /* Smaller font size for footer */
+    color: #99CCCC; /* Light teal for footer */
+    text-align: center; /* Center footer text */
 }
 
-/* Link Styling */
-.link {
+/* Add this at the bottom to create the classic "under construction" feeling */
+.construction {
+    text-align: center;
     margin-top: 20px;
-    font-size: 1.1em;
-    color: #66ccff;
-    text-decoration: none;
-    text-align: left; /* Left-align the links */
 }
 
-.link:hover {
-    text-decoration: underline;
+/* Classic horizontal rule styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #333344, #6699CC, #333344);
+    margin: 15px 0;
 }
 
-/* Image Styling */
-.styled-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    text-align: left; /* Left-align images */
+@keyframes blink {
+    50% { opacity: 0; }
 }
 
-.styled-image2 {
-    max-width: 25%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    text-align: left; /* Left-align images */
-}
-
-/* General Subheading Styling */
-h2, h3, h4, h5, h6, h7 {
-    font-size: 20px;
-    text-align: left; /* Left-align the subheadings */
-}
-
-/* Make the page scrollable */
-html, body {
-    height: 100%; /* Ensures full height */
-    overflow-x: hidden; /* Prevents horizontal overflow */
-}
-
-.content {
-    flex-grow: 1; /* Ensures content takes up available space */
-    padding-bottom: 50px; /* Add bottom padding if necessary for better spacing */
-}
-
-h1.underlined-heading {
-    text-decoration: underline;
+.blinking {
+    animation: blink 2s step-start infinite;
 }
