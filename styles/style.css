@@ -1,81 +1,73 @@
+/* Ensure no horizontal overflow */
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 /* General styling for all pages */
 html {
     height: 100%;
     background-color: #000080; /* Classic navy blue background instead of GIF */
-    /* Or keep your GIF but make it tile like old websites */
     background-image: url('../images/water.gif');
-    /* background-repeat: repeat; /* Make it tile instead of cover */
+    background-size: cover; /* Cover the screen, no tiling */
+    background-position: center; /* Center the background */
 }
 
 body {
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif; /* Changed to Lucida Grande with fallbacks */
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center alignment was common */
+    text-align: center;
 }
 
-/* Content box */
+/* Content box - make it responsive */
 .content {
-    background-color: #000000; /* Solid background, no transparency */
-    border: 2px solid #5CCCCC; /* Teal border instead of yellow */
-    border-radius: 0px; /* No rounded corners */
-    width: 800px; /* Fixed width - old sites weren't responsive */
+    background-color: #000000;
+    border: 2px solid #5CCCCC;
+    border-radius: 0px;
+    width: 100%; /* Use percentage to make it responsive */
+    max-width: 800px; /* Limit the max-width to 800px */
     margin: 20px auto;
     padding: 15px;
     text-align: left;
 }
 
-/* Header styling - all headings same size and left aligned */
-h1 {
-    color: #9966CC; /* Amethyst purple for headings instead of magenta */
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #9966CC;
     text-align: left;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
     font-size: 24px;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #9966CC; /* Amethyst purple for headings */
-    text-align: left;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px; /* All subheadings same size */
+    font-size: 20px;
 }
 
-/* Link Styling */
+/* Links */
 a {
-    color: #33CCAA; /* Sea green for links instead of cyan */
+    color: #33CCAA;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #66FFCC; /* Lighter sea green on hover instead of yellow */
+    color: #66FFCC;
 }
 
-/* Image Styling - smaller images like old websites */
-.styled-image {
-    max-width: 600px; /* Limit maximum width */
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    border: 1px solid #5CCCCC; /* Teal border around images */
-}
-
-.styled-image2 {
-    max-width: 200px; /* Even smaller for secondary images */
+/* Image Styling - responsive images */
+.styled-image, .styled-image2 {
+    max-width: 100%; /* Make images responsive */
     height: auto;
     display: block;
     margin: 10px auto;
 }
 
-/* All images, even those without classes */
-img {
-    max-width: 320px; /* Default max width for all images */
-    height: auto;
-}
-
-/* Table styling - tables were common for layout */
+/* Table styling */
 table {
-    width: 100%;
+    width: 100%; /* Make the table width responsive */
     border-collapse: collapse;
 }
 
@@ -84,41 +76,21 @@ td {
     vertical-align: top;
 }
 
-/* Blog Post Page Specific Styles */
-.blog-post-page .content {
-    width: 800px; /* Fixed width */
-    text-align: left;
-    margin-top: 30px;
-    line-height: 1.2; /* Slightly tighter line spacing */
-}
-
-.blog-post-page .post {
-    background-color: #000000; /* Solid background */
-    border: 1px solid #444466; /* Dark blue-gray border */
-    margin-top: 20px;
-    padding: 10px;
-}
-
-.blog-post-page .post h2 {
-    color: #6699CC; /* Steel blue color for blog post headings */
-    text-align: left;
-}
-
-/* Footer Styling */
+/* Footer */
 footer {
     margin-top: 20px;
-    font-size: 0.8em; /* Smaller font size for footer */
-    color: #99CCCC; /* Light teal for footer */
-    text-align: center; /* Center footer text */
+    font-size: 0.8em;
+    color: #99CCCC;
+    text-align: center;
 }
 
-/* Add this at the bottom to create the classic "under construction" feeling */
+/* Under construction */
 .construction {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Classic horizontal rule styling */
+/* Classic horizontal rule */
 hr {
     border: 0;
     height: 1px;
@@ -126,10 +98,48 @@ hr {
     margin: 15px 0;
 }
 
+/* Keyframes for blinking */
 @keyframes blink {
     50% { opacity: 0; }
 }
 
 .blinking {
     animation: blink 2s step-start infinite;
+}
+
+/* Mobile-first styling */
+@media (max-width: 600px) {
+    body {
+        text-align: left;
+    }
+
+    /* Adjust content box for smaller screens */
+    .content {
+        width: 90%; /* Allow the content to be more flexible on small screens */
+        padding: 10px;
+    }
+
+    /* Adjust headings for smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-size: 18px;
+    }
+
+    /* Ensure images scale to the screen size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    footer {
+        font-size: 0.7em;
+    }
 }
