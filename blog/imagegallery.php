@@ -41,25 +41,57 @@
     <div class="content">
         <?php include '../header.php'; ?>
         <h1>image gallery</h1>
-        <p>welcome to my image gallery! here you'll find some of my favorite images.</p>
+        <p>welcome to my image gallery! here you'll find some of my favorite images i have taken.</p>
 
         <!-- Image Gallery Section -->
         <div class="gallery">
             <div class="gallery-item">
-                <img src="../images/silly.jpg" alt="Image 1" class="styled-image">
-                <p>Image description 1</p>
+                <img src="../images/chi.jpg" alt="Image 1" class="styled-image">
+                <p>chicago 2024</p>
             </div>
             <div class="gallery-item">
-                <img src="../images/silly.jpg" alt="Image 2" class="styled-image">
-                <p>Image description 2</p>
+                <img src="../images/sd.jpg" alt="Image 2" class="styled-image">
+                <p>san diego 2024</p>
             </div>
             <div class="gallery-item">
-                <img src="../images/silly.jpg" alt="Image 3" class="styled-image">
-                <p>Image description 3</p>
+                <img src="../images/utah.jpg" alt="Image 3" class="styled-image">
+                <p>utah 2024</p>
             </div>
             <div class="gallery-item">
-                <img src="../images/silly.jpg" alt="Image 3" class="styled-image">
-                <p>Image description 3</p>
+                <img src="../images/utah2.jpg" alt="Image 3" class="styled-image">
+                <p>utah 2024</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/cap.jpg" alt="Image 3" class="styled-image">
+                <p>jefferson city capital 2024</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/hi.jpg" alt="Image 3" class="styled-image">
+                <p>hawaii 2023</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/la.jpg" alt="Image 3" class="styled-image">
+                <p>los angeles 2023</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/mt.jpg" alt="Image 3" class="styled-image">
+                <p>montana 2022</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/unity2022.jpg" alt="Image 3" class="styled-image">
+                <p>unity villiage 2022</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/mt2.jpg" alt="Image 3" class="styled-image">
+                <p>montana 2021</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/tn.jpg" alt="Image 3" class="styled-image">
+                <p>tennessee 2021</p>
+            </div>
+            <div class="gallery-item">
+                <img src="../images/co.jpg" alt="Image 3" class="styled-image">
+                <p>colorado 2016</p>
             </div>
             <!-- Add more gallery items as needed -->
         </div>

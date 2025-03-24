@@ -17,5 +17,5 @@ $count++;
 file_put_contents($counter_file, $count);
 
 // Display the visitor count
-echo "Visitor Count: " . $count;
+echo "visitor count: " . $count;
 ?>

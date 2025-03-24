@@ -11,7 +11,7 @@
 
     <div class="content">
         <?php include 'header.php'; ?>
-
+        <br>
         <div>
             <?php include 'visitor_counter.php'; ?>
         </div>

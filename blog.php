@@ -26,8 +26,10 @@
         <!-- List of All Blog Posts -->
         <h3>all posts of any type, chronologically:</h3>
         <ul>
-            <li><a href="blog/post1.php" class="link">31 december 2024: blog post 1</a></li>
-            <li><a href="blog/post2.php" class="link">Coming soon</a></li>
+            <li><a href="blog/post1.php" class="link">31 december 2024: m.c.t.</a></li>
+            <li><a href="blog/post2.php" class="link">29 may 2024: the illision of better times</a></li>
+            <li><a href="blog/post3.php" class="link">24 august 2023: the fear of looking beyond</a></li>
+            <li><a href="blog/post4.php" class="link">4 august 2023: airplane fiction</a></li>
             <!-- Additional posts can be added here -->
         </ul>
 
