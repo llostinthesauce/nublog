@@ -11,8 +11,8 @@
 <div>
     <a href="/index.php" class="link">home</a> | 
     <a href="/blog.php" class="link">blog</a> |
-    <a href="/blog/imagegallery.php" class="link">image gallery</a> |  
-    <a href="/about.php" class="link">about me</a> | 
+    <a href="/blog/imagegallery.php" class="link">images</a> |  
+    <a href="/about.php" class="link">about</a> | 
     <a href="/guestbook.php" class="link">guestbook</a>
 </div>
 
