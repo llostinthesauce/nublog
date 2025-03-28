@@ -58,9 +58,18 @@ a:hover {
 }
 
 /* Image Styling - responsive images */
-.styled-image, .styled-image2 {
+.styled-image {
     max-width: 100%; /* Make images responsive */
     height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.styled-image2 {
+    width: 50%; /* Make images responsive */
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
     display: block;
     margin: 10px auto;
 }

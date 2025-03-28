@@ -26,17 +26,18 @@
         <!-- List of All Blog Posts -->
         <h3>all posts of any type, chronologically:</h3>
         <ul>
-            <li><a href="blog/post5.php" class="link">24 march 2025: ----- nature being paradoxical</a></li>
-            <li><a href="blog/post1.php" class="link">31 december 2024: -- m.c.t.</a></li>
-            <li><a href="blog/post2.php" class="link">29 may 2024: ------- the illision of better times</a></li>
-            <li><a href="blog/post3.php" class="link">24 august 2023: ----- the fear of looking beyond</a></li>
-            <li><a href="blog/post4.php" class="link">4 august 2023: ------ airplane fiction</a></li>
-            <li><a href="blog/post10.php" class="link">3 november 2021: --- morals: where from? & are they valid?</a></li>
-            <li><a href="blog/post9.php" class="link">19 october 2021: ---- why would god allow suffering?</a></li>
-            <li><a href="blog/post8.php" class="link">12 october 2021: ---- is experience universal?</a></li>
-            <li><a href="blog/post7.php" class="link">26 september 2021: -- the best proof for the existence of god</a></li>
-            <li><a href="blog/post6.php" class="link">2 septmeber 2021: --- what makes you, you?</a></li>
-            <li><a href="blog/post11.php" class="link">28 april 2021: ------- how to fix america</a></li>
+            <li><a href="blog/post12.php" class="link">03-28-2025: demo</a></li>
+            <li><a href="blog/post5.php" class="link">03-24-2025: nature being paradoxical</a></li>
+            <li><a href="blog/post1.php" class="link">12-31-2024: m.c.t.</a></li>
+            <li><a href="blog/post2.php" class="link">05-29-2024: the illision of better times</a></li>
+            <li><a href="blog/post3.php" class="link">08-24-2023: the fear of looking beyond</a></li>
+            <li><a href="blog/post4.php" class="link">08-04-2023: airplane fiction</a></li>
+            <li><a href="blog/post10.php" class="link">11-03-2021: morals: where from? & are they valid?</a></li>
+            <li><a href="blog/post9.php" class="link">10-19-2021: why would god allow suffering?</a></li>
+            <li><a href="blog/post8.php" class="link">10-12-2021: is experience universal?</a></li>
+            <li><a href="blog/post7.php" class="link">09-26-2021: the best proof for the existence of god</a></li>
+            <li><a href="blog/post6.php" class="link">09-02-2021: what makes you, you?</a></li>
+            <li><a href="blog/post11.php" class="link">04-28-2021: how to fix america</a></li>
 
             <!-- Additional posts can be added here -->
         </ul>
