@@ -25,6 +25,10 @@
 
         <img src="images/silly.jpg" alt="A silly image" class="styled-image">
 
+        <audio autoplay loop>
+            <source src="/audio/shb.mp3" type="audio/mp3">
+        </audio>  
+
         <?php include 'footer.php'; ?>
     </div>
 

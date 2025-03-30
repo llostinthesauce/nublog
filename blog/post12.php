@@ -12,11 +12,11 @@
         <?php include '../header.php'; ?> 
         <h1 class="underlined-heading">demo</h1>
         <div>
-            <p>published 28 march 2025</p>
+            <p>published xx march 2025</p>
         </div>
         <img src="/images/post12.jpg" alt="X" class="styled-image">
 
-        <p>poop</p>
+        <p>//inprogress//</p>
 
         <?php include '../footer.php'; ?>
     </div>

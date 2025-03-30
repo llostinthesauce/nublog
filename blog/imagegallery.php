@@ -106,7 +106,7 @@
                 </td>
                 <td>
                     <div class="image-wrapper">
-                        <img src="../images/mt.jpg" alt="Image 8" class="styled-image">
+                        <img src="../images/mt1.jpg" alt="Image 8" class="styled-image">
                     </div>
                     <p>montana 2022</p>
                 </td>

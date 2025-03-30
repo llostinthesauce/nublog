@@ -21,12 +21,12 @@
         </p>
 
         <p>welcome to my nuBlog! below you will find an all-encompassing feed of any of my latest posts:</p>
-        <p><i>(I am a big fan of having an open dialogue about any of the topics discussed here, no matter how mundane. I simply would like to encourage some conversation, so if I say anything that sparks your interest, please feel free to shoot me an e-mail, it is located in the footer!)</i></p>
+        <p><i>(some of these posts are old, some are new, some are essays, and some are just thoughts or collections of pictures. if I say anything interesting, let's talk about it! shoot me an e-mail, it is located in the footer!)</i></p>
 
         <!-- List of All Blog Posts -->
         <h3>all posts of any type, chronologically:</h3>
         <ul>
-            <li><a href="blog/post12.php" class="link">03-28-2025: demo</a></li>
+            <li><a href="blog/post12.php" class="link">03-28-2025: //in progress//</a></li>
             <li><a href="blog/post5.php" class="link">03-24-2025: nature being paradoxical</a></li>
             <li><a href="blog/post1.php" class="link">12-31-2024: m.c.t.</a></li>
             <li><a href="blog/post2.php" class="link">05-29-2024: the illision of better times</a></li>
