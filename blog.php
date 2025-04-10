@@ -26,7 +26,8 @@
         <!-- List of All Blog Posts -->
         <h3>all posts of any type, chronologically:</h3>
         <ul>
-            <li><a href="blog/post12.php" class="link">04-04-2025: literary duos essay</a></li>
+            <li><a href="blog/post13.php" class="link">05-10-2025: literary duos essay (kavalier and clay)</a></li>
+            <li><a href="blog/post12.php" class="link">04-04-2025: literary duos essay (fight club)</a></li>
             <li><a href="blog/post5.php" class="link">03-24-2025: nature being paradoxical</a></li>
             <li><a href="blog/post1.php" class="link">12-31-2024: m.c.t.</a></li>
             <li><a href="blog/post2.php" class="link">05-29-2024: the illision of better times</a></li>
