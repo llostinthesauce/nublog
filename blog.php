@@ -31,6 +31,7 @@
             <li><a href="blog/post5.php" class="link">03-24-2025: nature being paradoxical</a></li>
             <li><a href="blog/post1.php" class="link">12-31-2024: m.c.t.</a></li>
             <li><a href="blog/post2.php" class="link">05-29-2024: the illision of better times</a></li>
+            <li><a href="blog/post14.php" class="link">03-15-2024: KCOU: "Scaring The Hoes" - Album Review</a></li>
             <li><a href="blog/post3.php" class="link">08-24-2023: the fear of looking beyond</a></li>
             <li><a href="blog/post4.php" class="link">08-04-2023: airplane fiction</a></li>
             <li><a href="blog/post10.php" class="link">11-03-2021: morals: where from? & are they valid?</a></li>
