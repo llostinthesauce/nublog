@@ -14,7 +14,7 @@
         <div>
             <p>published 15 march 2024</p>
         </div>
-        <img src="/images/post14.jpg" alt="X" class="styled-image" style="max-width: 400px; height: auto; display: block; margin: 1rem auto;">
+        <img src="/images/post14.jpg" alt="X" class="styled-image2" style="max-width: 400px; height: auto; display: block; margin: 1rem auto;">
 
         <div class="external-article-preview">
             <p><strong>originally published on KCOU.fm:</strong></p>

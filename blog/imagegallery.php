@@ -51,8 +51,13 @@
     <div class="content">
         <?php include '../header.php'; ?>
         <h1>image gallery</h1>
-        <p>welcome to my image gallery! here you'll find some of my favorite images i have taken.</p>
+        <p>welcome to my image gallery! here you'll find some of my favorite images i have taken. i have some specific galleries from trips or weeks or cameras or whatever else as well. check out the links below!</p>
+
+        <li><a href="canonps400gallery.php" class="link">canon powershot sd400 digital camera, 2025</a></li>
+        <li><a href="vivitargallery.php" class="link">vivitar pz3090 film camera, 2024</a></li>
+        <li><a href="topsters.php" class="link">topsters archive, 2022 to present</a></li>
         
+
         <!-- Image Gallery Section using old-school table layout -->
         <table class="gallery-table">
             <tr>

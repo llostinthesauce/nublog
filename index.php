@@ -25,6 +25,26 @@
 
         <img src="images/silly.jpg" alt="A silly image" class="styled-image">
 
+        <?php
+        $daily_dir = __DIR__ . "/daily/";
+        $daily_files = glob($daily_dir . "*.php");
+
+        // Sort by newest file name (you could also use filemtime for modified time)
+        usort($daily_files, function($a, $b) {
+            return strcmp($b, $a); // descending order
+        });
+
+        $latest_file = $daily_files[0] ?? null;
+
+        if ($latest_file) {
+            $latest_filename = basename($latest_file);
+            echo "<div class='homepage-daily-preview'>";
+            echo "<h2>read my latest daily entry:</h2>";
+            echo "<a href='daily/$latest_filename' class='link'>$latest_filename</a>";
+            echo "</div>";
+        }
+        ?>
+
         <audio autoplay loop>
             <source src="/audio/shb.mp3" type="audio/mp3">
         </audio>  
