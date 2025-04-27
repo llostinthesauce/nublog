@@ -52,7 +52,7 @@
                 11 => "november 2023",
                 10 => "september 2023",
                 9 => "may 2023",
-                8 => "febryary 2024",
+                8 => "february 2024",
                 7 => "december 2022",
                 6 => "november 2022",
                 5 => "october 2022",

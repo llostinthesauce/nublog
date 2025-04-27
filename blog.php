@@ -66,6 +66,8 @@
             <div class="column daily-posts">
                 <h3>all daily posts:</h3>
                 <ul>
+                    <li><a href="daily/april26.php">04-26-2025</a></li>
+                    <li><a href="daily/april25.php">04-25-2025</a></li>
                     <li><a href="daily/april24.php">04-24-2025</a></li>
                     <li><a href="daily/april23.php">04-23-2025</a></li>
                     <li><a href="daily/april22.php">04-22-2025</a></li>
@@ -76,7 +78,7 @@
             <div class="column longform-posts">
                 <h3>all longform posts:</h3>
                 <ul>
-                    <li><a href="blog/post16.php">04-25-2021: on individualism</a></li>
+                    <li><a href="blog/post16.php">04-25-2025: on individualism</a></li>
                     <li><a href="blog/post13.php">04-10-2025: literary duos essay (kav and clay)</a></li>
                     <li><a href="blog/post12.php">04-04-2025: literary duos essay (fight club)</a></li>
                     <li><a href="blog/post5.php">03-24-2025: nature being paradoxical</a></li>
