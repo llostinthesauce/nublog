@@ -66,6 +66,7 @@
             <div class="column daily-posts">
                 <h3>all daily posts:</h3>
                 <ul>
+                    <li><a href="daily/may07.php">05-07-2025</a></li>
                     <li><a href="daily/april27.php">04-27-2025</a></li>
                     <li><a href="daily/april26.php">04-26-2025</a></li>
                     <li><a href="daily/april25.php">04-25-2025</a></li>
